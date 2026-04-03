@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Surprise for Anjal! ✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bdayMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <div id="initialBtnContainer">
+            <button class="main-surprise-btn" onclick="revealEverything()">
+                Anjal, click here for a surprise! 🎁
+            </button>
+        </div>
+
+        <div id="mainContent" class="hidden">
+            <div class="glass-card">
+                <h1 class="main-title">Happy Birthday <br><span class="name">Anjal!</span> 🎂✨</h1>
+                
+                <div class="profile-section">
+                    <div class="avatar-wrapper">
+                        <img src="anjal.jpg" alt="Anjal" class="profile-pic">
+                    </div>
+                    <div class="name-badge">Anjal</div>
+                </div>
+
+                <div class="message-box">
+                    <p class="wish-text">
+                        "Happy Birthday Anjal! 🥳 On this beautiful day, I wish you endless happiness 🌈, peaceful moments 🕊️, and dreams that come true ✨. May your life always shine with positivity ☀️, success 🏆, and wonderful memories 📸."
+                    </p>
+                    <p class="highlight-yellow">Enjoy your day to the fullest! 🎈🥂</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
